@@ -1,20 +1,20 @@
 // src/routes.tsx
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Userspage from "./pages/Userspage";
 import Layout from "./Layout";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
-    element: <Layout />, 
+    element: <Layout />,
     children: [
       {
-        index: true, 
+        index: true,
         element: <Homepage />,
       },
       {
-        path: "users", 
+        path: "users",
         element: <Userspage />,
       },
     ],
