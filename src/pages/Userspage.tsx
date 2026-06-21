@@ -34,7 +34,7 @@ function Userspage() {
 
   const usersContent = users.map((user) => (
     <div className="user" key={user.id}>
-      <img src="/icons/user.png" alt="" />
+      <img src={`${import.meta.env.BASE_URL}icons/user.png`} alt="" />
       <div className="user-info">
         <p>Name: {user.name}</p>
         <p>Username: {user.username}</p>

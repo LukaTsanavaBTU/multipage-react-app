@@ -24,7 +24,10 @@ function Homepage() {
           Buy Now!
         </button>
       </div>
-      <img src="/images/intel-chip.jpg" alt="intel chip" />
+      <img
+        src={`${import.meta.env.BASE_URL}images/intel-chip.jpg`}
+        alt="intel chip"
+      />
     </div>
   );
 }
