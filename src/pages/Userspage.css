@@ -1,0 +1,30 @@
+.users-wrapper {
+  width: 50%;
+  text-align: center;
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+}
+
+.users-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  overflow: auto;
+
+  .user {
+    display: flex;
+    align-items: start;
+    gap: 12px;
+    padding: 8px;
+    border-radius: 10px;
+    border: solid black 1px;
+    img {
+      width: 50px;
+      height: auto;
+    }
+  }
+}
