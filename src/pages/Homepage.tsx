@@ -25,7 +25,7 @@ function Homepage() {
         </button>
       </div>
       <img
-        src={`${import.meta.env.BASE_URL}images/intel-chip.jpg`}
+        src='images/intel-chip.jpg'
         alt="intel chip"
       />
     </div>
